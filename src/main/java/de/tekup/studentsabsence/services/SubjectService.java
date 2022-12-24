@@ -15,6 +15,7 @@ public interface SubjectService {
     Subject deleteSubject(Long id);
 
     Subject updateSubject(Subject subject);
+    boolean eliminatedStudentByGroup(Long id , Long gid, Long sid);
 
 
 }
